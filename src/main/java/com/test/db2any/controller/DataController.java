@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController()
-@RequestMapping(value = "db2any/bykey/")
+@RequestMapping(value = "bykey/")
 public class DataController {
     private static final Logger logger = LoggerFactory.getLogger(DataController.class);
     DataService dataService;
