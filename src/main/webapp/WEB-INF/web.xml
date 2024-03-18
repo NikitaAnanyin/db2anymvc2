@@ -3,8 +3,4 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <context-param>
-    <param-name>dataQuery</param-name>
-    <param-value>select * from MYDERBYDB.TABLE_TEST where id = ?</param-value>
-  </context-param>
 </web-app>

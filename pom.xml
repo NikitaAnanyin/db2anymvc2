@@ -66,9 +66,7 @@
           <artifactId>maven-war-plugin</artifactId>
           <version>${maven-war-plugin.version}</version>
           <configuration>
-            <warSourceDirectory>src/webapp</warSourceDirectory>
             <warName>db2any</warName>
-            <failOnMissingWebXml>false</failOnMissingWebXml>
           </configuration>
         </plugin>
       </plugins>

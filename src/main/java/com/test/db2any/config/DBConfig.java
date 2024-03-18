@@ -14,11 +14,11 @@ import javax.sql.DataSource;
 public class DBConfig {
 
     @Value("${database.settings}")
-    private String DBSettings;
+    private String dBSettings;
 
     @Bean
     public DataSource dataSource() throws NamingException {
-        return (DataSource) new JndiTemplate().lookup(DBSettings);
+        return (DataSource) new JndiTemplate().lookup(dBSettings);
     }
 
     @Bean
